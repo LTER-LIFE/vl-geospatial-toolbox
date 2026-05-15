@@ -1,3 +1,3 @@
-# GeoSpatial Toolbox Virtual Lav
+# GeoSpatial Toolbox Virtual Lab
 
 _Virtual lab supporting the search, downloading, and manipulation of geospatial data, such as satellite imagery, and extracting such data to inform ecological workflows._
