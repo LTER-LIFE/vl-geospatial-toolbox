@@ -1,0 +1,518 @@
+{
+  "chart": {
+    "offset": {
+      "x": -118,
+      "y": 41
+    },
+    "scale": 1,
+    "nodes": {
+      "11b394ee-8eee-4544-86cd-18f0325e3294": {
+        "id": "11b394ee-8eee-4544-86cd-18f0325e3294",
+        "position": {
+          "x": 794,
+          "y": 111
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "in_raster": {
+            "id": "in_raster",
+            "type": "left",
+            "properties": {
+              "color": "#536cac",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 17
+            }
+          },
+          "in_template": {
+            "id": "in_template",
+            "type": "left",
+            "properties": {
+              "color": "#1f7093",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 43
+            }
+          },
+          "out": {
+            "id": "out",
+            "type": "right",
+            "properties": {
+              "color": "#4c2d86",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/594eabcc-f432-405a-9224-c000f8565b80/",
+            "owner": "b.a.santosmarcos@uva.nl",
+            "virtual_lab": "geospatial-toolbox",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/594eabcc-f432-405a-9224-c000f8565b80/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-build:v0.3.16",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-runtime:v0.3.16"
+            },
+            "dependencies": [
+              {
+                "name": "terra",
+                "module": "",
+                "asname": ""
+              }
+            ],
+            "inputs": [
+              {
+                "name": "in_raster",
+                "type": "str"
+              },
+              {
+                "name": "in_template",
+                "type": "str"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "out",
+                "type": "str"
+              }
+            ],
+            "confs": [],
+            "params": [
+              {
+                "name": "param_crs",
+                "type": "str",
+                "default_value": "EPSG:28992"
+              },
+              {
+                "name": "param_mask",
+                "type": "int",
+                "default_value": "0"
+              },
+              {
+                "name": "param_method",
+                "type": "str",
+                "default_value": "near"
+              },
+              {
+                "name": "param_resolution",
+                "type": "float",
+                "default_value": null
+              }
+            ],
+            "secrets": [],
+            "title": "gstb-project-raster-b-a-santosmarcos-uva-nl",
+            "description": "gstb-project-raster-b-a-santosmarcos-uva-nl",
+            "created": "2026-08-17T18:03:07.266202Z",
+            "modified": "2026-08-17T18:03:07.638609Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-geospatial-toolbox/gstb-project-raster-b-a-santosmarcos-uva-nl:a85da32",
+            "kernel": "IRkernel",
+            "source_url": "https://github.com/NaaVRE/cells-vl-geospatial-toolbox/tree/eaed39c29805c3bc8f0414ef1378a8a82f19f312/gstb-project-raster-b-a-santosmarcos-uva-nl",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "5e0ee5a9-59df-449a-b9d3-17028bf19bd2": {
+        "id": "5e0ee5a9-59df-449a-b9d3-17028bf19bd2",
+        "position": {
+          "x": 1483,
+          "y": 252
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "in_raster": {
+            "id": "in_raster",
+            "type": "left",
+            "properties": {
+              "color": "#536cac",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          },
+          "out": {
+            "id": "out",
+            "type": "right",
+            "properties": {
+              "color": "#4c2d86",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/537e3361-d99c-4e74-948a-5724646f77b9/",
+            "owner": "b.a.santosmarcos@uva.nl",
+            "virtual_lab": "geospatial-toolbox",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/537e3361-d99c-4e74-948a-5724646f77b9/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-build:v0.3.16",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-runtime:v0.3.16"
+            },
+            "dependencies": [
+              {
+                "name": "terra",
+                "module": "",
+                "asname": ""
+              }
+            ],
+            "inputs": [
+              {
+                "name": "in_raster",
+                "type": "str"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "out",
+                "type": "str"
+              }
+            ],
+            "confs": [],
+            "params": [
+              {
+                "name": "param_factor",
+                "type": "int",
+                "default_value": "2"
+              },
+              {
+                "name": "param_function",
+                "type": "str",
+                "default_value": "mean"
+              }
+            ],
+            "secrets": [],
+            "title": "gstb-aggregate-raster-b-a-santosmarcos-uva-nl",
+            "description": "gstb-aggregate-raster-b-a-santosmarcos-uva-nl",
+            "created": "2026-08-17T16:45:10.998899Z",
+            "modified": "2026-08-17T16:45:11.781245Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-geospatial-toolbox/gstb-aggregate-raster-b-a-santosmarcos-uva-nl:8ac7b32",
+            "kernel": "IRkernel",
+            "source_url": "https://github.com/NaaVRE/cells-vl-geospatial-toolbox/tree/fa18f045a750f3946d4e457d0a1df0c9ddae6dde/gstb-aggregate-raster-b-a-santosmarcos-uva-nl",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "afbff115-3efa-4ae3-93f7-0800ff3e5fa1": {
+        "id": "afbff115-3efa-4ae3-93f7-0800ff3e5fa1",
+        "position": {
+          "x": 1134,
+          "y": 176
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "in_raster": {
+            "id": "in_raster",
+            "type": "left",
+            "properties": {
+              "color": "#536cac",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": -2,
+              "y": 30
+            }
+          },
+          "out": {
+            "id": "out",
+            "type": "right",
+            "properties": {
+              "color": "#4c2d86",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/36046112-e19d-424a-bf6b-b8d7320dd8f3/",
+            "owner": "b.a.santosmarcos@uva.nl",
+            "virtual_lab": "geospatial-toolbox",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 1,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/36046112-e19d-424a-bf6b-b8d7320dd8f3/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-build:v0.3.16",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-runtime:v0.3.16"
+            },
+            "dependencies": [
+              {
+                "name": "terra",
+                "module": "",
+                "asname": ""
+              }
+            ],
+            "inputs": [
+              {
+                "name": "in_raster",
+                "type": "str"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "out",
+                "type": "str"
+              }
+            ],
+            "confs": [],
+            "params": [
+              {
+                "name": "param_factor",
+                "type": "int",
+                "default_value": "10"
+              },
+              {
+                "name": "param_method",
+                "type": "str",
+                "default_value": "bilinear"
+              }
+            ],
+            "secrets": [],
+            "title": "gstb-disaggregate-raster-b-a-santosmarcos-uva-nl",
+            "description": "gstb-disaggregate-raster-b-a-santosmarcos-uva-nl",
+            "created": "2026-08-17T17:12:21.454125Z",
+            "modified": "2026-08-17T17:12:21.910761Z",
+            "version": 1,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-geospatial-toolbox/gstb-disaggregate-raster-b-a-santosmarcos-uva-nl:27758c9",
+            "kernel": "IRkernel",
+            "source_url": "https://github.com/NaaVRE/cells-vl-geospatial-toolbox/tree/9fb984fd1b99008b08e3bc6080caf11e319d13cc/gstb-disaggregate-raster-b-a-santosmarcos-uva-nl",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      },
+      "da333b86-8715-43bc-8472-231e250548ea": {
+        "id": "da333b86-8715-43bc-8472-231e250548ea",
+        "position": {
+          "x": 438,
+          "y": 24
+        },
+        "orientation": 0,
+        "type": "workflow-cell",
+        "ports": {
+          "out": {
+            "id": "out",
+            "type": "right",
+            "properties": {
+              "color": "#4c2d86",
+              "parentNodeType": "workflow-cell"
+            },
+            "position": {
+              "x": 252,
+              "y": 30
+            }
+          }
+        },
+        "properties": {
+          "cell": {
+            "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/ebd34417-2f04-41c7-aa91-002b91f2ec81/",
+            "owner": "b.a.santosmarcos@uva.nl",
+            "virtual_lab": "geospatial-toolbox",
+            "shared_with_scopes": [],
+            "shared_with_users": [],
+            "versions": [
+              {
+                "version": 5,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/a4889da2-25b9-4854-9732-80a1d17280ed/"
+              },
+              {
+                "version": 6,
+                "url": "https://beta.naavre.net/naavre-catalogue-service/workflow-cells/ebd34417-2f04-41c7-aa91-002b91f2ec81/"
+              }
+            ],
+            "base_container_image": {
+              "build": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-build:v0.3.16",
+              "runtime": "ghcr.io/naavre/flavors/naavre-fl-geospatial-toolbox-cell-runtime:v0.3.16"
+            },
+            "dependencies": [
+              {
+                "name": "terra",
+                "module": "",
+                "asname": ""
+              }
+            ],
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "out",
+                "type": "str"
+              }
+            ],
+            "confs": [],
+            "params": [
+              {
+                "name": "param_crs",
+                "type": "str",
+                "default_value": "EPSG:28992"
+              },
+              {
+                "name": "param_names",
+                "type": "list",
+                "default_value": ""
+              },
+              {
+                "name": "param_ncols",
+                "type": "int",
+                "default_value": "300"
+              },
+              {
+                "name": "param_nlyrs",
+                "type": "int",
+                "default_value": "1"
+              },
+              {
+                "name": "param_nrows",
+                "type": "int",
+                "default_value": "100"
+              },
+              {
+                "name": "param_resolution",
+                "type": "float",
+                "default_value": null
+              },
+              {
+                "name": "param_time",
+                "type": "list",
+                "default_value": null
+              },
+              {
+                "name": "param_values",
+                "type": "list",
+                "default_value": ""
+              },
+              {
+                "name": "param_xmax",
+                "type": "float",
+                "default_value": "150"
+              },
+              {
+                "name": "param_xmin",
+                "type": "float",
+                "default_value": "-150"
+              },
+              {
+                "name": "param_ymax",
+                "type": "float",
+                "default_value": "50"
+              },
+              {
+                "name": "param_ymin",
+                "type": "float",
+                "default_value": "-50"
+              }
+            ],
+            "secrets": [],
+            "title": "gstb-create-raster-b-a-santosmarcos-uva-nl",
+            "description": "gstb-create-raster-b-a-santosmarcos-uva-nl",
+            "created": "2026-08-18T18:10:12.372642Z",
+            "modified": "2026-08-18T18:10:13.331308Z",
+            "version": 6,
+            "template_format": "v1",
+            "container_image": "ghcr.io/naavre/cells-vl-geospatial-toolbox/gstb-create-raster-b-a-santosmarcos-uva-nl:a16ed00",
+            "kernel": "IRkernel",
+            "source_url": "https://github.com/NaaVRE/cells-vl-geospatial-toolbox/tree/eb80d1c42f34d9a290c46e1be8d4c0c71cb29052/gstb-create-raster-b-a-santosmarcos-uva-nl",
+            "is_draft": false
+          }
+        },
+        "size": {
+          "width": 252,
+          "height": 61
+        }
+      }
+    },
+    "links": {
+      "b96bf248-1047-4ce7-b2fd-9d6396a385af": {
+        "id": "b96bf248-1047-4ce7-b2fd-9d6396a385af",
+        "from": {
+          "nodeId": "11b394ee-8eee-4544-86cd-18f0325e3294",
+          "portId": "out"
+        },
+        "to": {
+          "nodeId": "afbff115-3efa-4ae3-93f7-0800ff3e5fa1",
+          "portId": "in_raster"
+        }
+      },
+      "4fc0c7a6-83fa-4efd-9cf7-e32e77429dba": {
+        "id": "4fc0c7a6-83fa-4efd-9cf7-e32e77429dba",
+        "from": {
+          "nodeId": "afbff115-3efa-4ae3-93f7-0800ff3e5fa1",
+          "portId": "out"
+        },
+        "to": {
+          "nodeId": "5e0ee5a9-59df-449a-b9d3-17028bf19bd2",
+          "portId": "in_raster"
+        }
+      },
+      "e1a0de1c-e5ea-4db9-9223-18451bac114a": {
+        "id": "e1a0de1c-e5ea-4db9-9223-18451bac114a",
+        "from": {
+          "nodeId": "da333b86-8715-43bc-8472-231e250548ea",
+          "portId": "out"
+        },
+        "to": {
+          "nodeId": "11b394ee-8eee-4544-86cd-18f0325e3294",
+          "portId": "in_raster"
+        }
+      }
+    },
+    "properties": {
+      "params": []
+    },
+    "selected": {},
+    "hovered": {}
+  }
+}
